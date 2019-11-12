@@ -6,13 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Buttons</title>
+    <link href="https://fonts.googleapis.com/css?family=Wallpoet&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100%;
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(3, 1fr);
+            background-color: #eecbc7;
+        }
+
+        button {
+            margin: 3rem 5rem;
+            cursor: pointer;
+            border-radius: 25px;
+            border: 3px solid #fff;
+            background-color: #776563;
+        }
+
+        button a {
+            text-decoration: none;
+            font-family: 'Wallpoet', cursive;
+            font-size: 3rem;
+            color: #dadedf;
+        }
+
+        button:hover {
+            background-color: #2f2827;
+            box-shadow: 10px 10px 10px #776563;
+        }
+    </style>
 </head>
 
 <body>
-    <button><a target="_blank"
-            href="https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i">GOOGLE</a></button>
-    <button><a target="_blank"
-            href="https://www.smashingmagazine.com/2019/10/imagekit-guide-optimizing-images-mobile/">BING</a></button>
+    <button>
+        <a target="_blank"
+            href="https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i">GOOGLE</a>
+    </button>
+    <button>
+        <a target="_blank"
+            href="https://www.smashingmagazine.com/2019/10/imagekit-guide-optimizing-images-mobile/">BING</a>
+    </button>
     <button><a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">YAHOO</a></button>
 </body>
 
